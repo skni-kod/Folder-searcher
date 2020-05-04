@@ -20,7 +20,9 @@ SOURCES += \
     Widget.cpp
 
 HEADERS += \
-    Widget.h
+    Widget.h \
+    filesearch.h \
+    memeryadd.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
